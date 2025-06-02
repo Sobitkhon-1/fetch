@@ -1,0 +1,44 @@
+body {
+      font-family: Arial, sans-serif;
+      max-width: 600px;
+      margin: 40px auto;
+      background: #f8f9fa;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li {
+      background: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+      padding: 15px;
+      margin-bottom: 15px;
+    }
+    .user-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .user-header span {
+      font-weight: bold;
+      font-size: 16px;
+    }
+    .user-buttons button {
+      margin-left: 10px;
+      padding: 5px 10px;
+      border: none;
+      border-radius: 5px;
+      color: white;
+      cursor: pointer;
+    }
+    .email-btn {
+      background-color: #0077cc;
+    }
+    .address-btn {
+      background-color: #28a745;
+    }
+    .info {
+      margin-top: 10px;
+      color: #444;
+    }
