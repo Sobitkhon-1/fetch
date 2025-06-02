@@ -1,44 +1,80 @@
-body {
-      font-family: Arial, sans-serif;
-      max-width: 600px;
-      margin: 40px auto;
-      background: #f8f9fa;
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f2f4f8;
+      padding: 30px;
     }
+
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+
     ul {
       list-style: none;
       padding: 0;
+      max-width: 600px;
+      margin: 0 auto;
     }
+
     li {
-      background: #ffffff;
+      background-color: #ffffff;
       border-radius: 10px;
-      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-      padding: 15px;
+      padding: 20px;
       margin-bottom: 15px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.06);
+      transition: box-shadow 0.3s ease;
     }
+
+    li:hover {
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
     .user-header {
       display: flex;
       justify-content: space-between;
       align-items: center;
     }
-    .user-header span {
+
+    .user-name {
+      font-size: 18px;
       font-weight: bold;
-      font-size: 16px;
+      color: #333;
     }
-    .user-buttons button {
-      margin-left: 10px;
-      padding: 5px 10px;
+
+    .buttons {
+      display: flex;
+      gap: 10px;
+    }
+
+    button {
+      padding: 6px 12px;
       border: none;
       border-radius: 5px;
       color: white;
+      font-size: 14px;
       cursor: pointer;
+      transition: background 0.2s ease;
     }
+
     .email-btn {
-      background-color: #0077cc;
+      background-color: #007bff;
     }
+
+    .email-btn:hover {
+      background-color: #0056b3;
+    }
+
     .address-btn {
       background-color: #28a745;
     }
+
+    .address-btn:hover {
+      background-color: #1e7e34;
+    }
+
     .info {
-      margin-top: 10px;
-      color: #444;
+      margin-top: 15px;
+      font-size: 14px;
+      color: #555;
     }
